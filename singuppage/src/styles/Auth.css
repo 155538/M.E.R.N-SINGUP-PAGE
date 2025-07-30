@@ -1,0 +1,121 @@
+/* main container */
+
+.auth-container {
+
+border:  3px solid #a37fec;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 100px;
+  background: #b0a7eb;
+  border-radius: 15px;
+ 
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.auth-title {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #6a66e8;
+  font-family: "Seymour One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/*  Tab Styles */
+
+.auth-tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.tab-button {
+  padding: 10px 20px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-weight: 600;
+  color: #777;
+}
+
+.tab-button.active {
+  color: #4a00e0;
+}
+
+.tab-indicator {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  height: 3px;
+  background: #4a00e0;
+  border-radius: 3px;
+}
+
+/* ======== Input Fields ======== */
+
+.input-field {
+
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.input-field:hover {
+  border-color: #4a00e0;
+}
+
+.input-field .input-icon {
+  margin-right: 10px;
+  color: #777;
+}
+
+.input-field input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 14px;
+}
+
+/* ======== Submit Button ======== */
+
+
+.submit-button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(45deg, #4a00e0, #8e2de2);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* ======== Footer Text ======== */
+
+
+.auth-footer p {
+  font-size: 14px;
+  color: #777;
+}
+
+.auth-footer span {
+  color: #4a00e0;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.venom {
+  font-size: 100px;
+  color: #017e31;
+  margin-top: 20px;
+}
